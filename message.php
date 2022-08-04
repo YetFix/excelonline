@@ -23,7 +23,7 @@ $mail = new PHPMailer(true);
 
     //Recipients
     $mail->setFrom('info@excelonlinebd.net', 'Mailer');
-    $mail->addAddress('mail.kawsar12@gmail.com');     //Add a recipient
+    $mail->addAddress('info@excelonlinebd.net');     //Add a recipient
              //Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
     // $mail->addCC('cc@example.com');
